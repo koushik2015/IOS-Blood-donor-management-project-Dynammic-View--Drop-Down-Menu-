@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		395B46621A244C7900F10652 /* drop.png in Resources */ = {isa = PBXBuildFile; fileRef = 395B46611A244C7900F10652 /* drop.png */; };
+		398380011A29000F00A1D22D /* bck.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 398380001A29000F00A1D22D /* bck.jpeg */; };
+		6E698FEA1A11AA0800524400 /* DonorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E698FE91A11AA0800524400 /* DonorDetailViewController.m */; };
+		6E86E22F1A118F76002A6FE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E86E22E1A118F76002A6FE3 /* Foundation.framework */; };
+		6E86E2311A118F76002A6FE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E86E2301A118F76002A6FE3 /* CoreGraphics.framework */; };
+		6E86E2331A118F76002A6FE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E86E2321A118F76002A6FE3 /* UIKit.framework */; };
+		6E86E2391A118F76002A6FE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E86E2371A118F76002A6FE3 /* InfoPlist.strings */; };
+		6E86E23B1A118F76002A6FE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E86E23A1A118F76002A6FE3 /* main.m */; };
+		6E86E23F1A118F76002A6FE3 /* IlluminatiCodersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E86E23E1A118F76002A6FE3 /* IlluminatiCodersAppDelegate.m */; };
+		6E86E2421A118F76002A6FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E86E2401A118F76002A6FE3 /* Main.storyboard */; };
+		6E86E2451A118F76002A6FE3 /* IlluminatiCodersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E86E2441A118F76002A6FE3 /* IlluminatiCodersViewController.m */; };
+		6E86E2471A118F76002A6FE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E86E2461A118F76002A6FE3 /* Images.xcassets */; };
+		6E86E24E1A118F76002A6FE3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E86E24D1A118F76002A6FE3 /* XCTest.framework */; };
+		6E86E24F1A118F76002A6FE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E86E22E1A118F76002A6FE3 /* Foundation.framework */; };
+		6E86E2501A118F76002A6FE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E86E2321A118F76002A6FE3 /* UIKit.framework */; };
+		6E86E2581A118F76002A6FE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E86E2561A118F76002A6FE3 /* InfoPlist.strings */; };
+		6E86E25A1A118F76002A6FE3 /* BloodManagementSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E86E2591A118F76002A6FE3 /* BloodManagementSystemTests.m */; };
+		6E86E2651A1191D7002A6FE3 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E86E2641A1191D7002A6FE3 /* SearchViewController.m */; };
+		6E86E2681A1195F6002A6FE3 /* Donor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E86E2671A1195F6002A6FE3 /* Donor.m */; };
+		6E9EB4301A12DD9D0094D457 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EB42F1A12DD9D0094D457 /* RegistrationViewController.m */; };
+		6EBC86771A1EC28E0071FB90 /* Donate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC86761A1EC28E0071FB90 /* Donate.jpg */; };
+		6EBC86791A1EC2DA0071FB90 /* Search.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC86781A1EC2DA0071FB90 /* Search.jpg */; };
+		8F9164061A1F1457002C36A8 /* BACKbutton in Resources */ = {isa = PBXBuildFile; fileRef = 8F9164051A1F1457002C36A8 /* BACKbutton */; };
+		8F9164081A1F2642002C36A8 /* dropDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9164071A1F2642002C36A8 /* dropDown.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E86E2511A118F76002A6FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E86E2231A118F76002A6FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E86E22A1A118F76002A6FE3;
+			remoteInfo = BloodManagementSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		395B46611A244C7900F10652 /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.png; sourceTree = "<group>"; };
+		398380001A29000F00A1D22D /* bck.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bck.jpeg; sourceTree = "<group>"; };
+		6E698FE81A11AA0800524400 /* DonorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonorDetailViewController.h; sourceTree = "<group>"; };
+		6E698FE91A11AA0800524400 /* DonorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonorDetailViewController.m; sourceTree = "<group>"; };
+		6E86E22B1A118F76002A6FE3 /* BloodManagementSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodManagementSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E86E22E1A118F76002A6FE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E86E2301A118F76002A6FE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E86E2321A118F76002A6FE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E86E2361A118F76002A6FE3 /* BloodManagementSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BloodManagementSystem-Info.plist"; sourceTree = "<group>"; };
+		6E86E2381A118F76002A6FE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E86E23A1A118F76002A6FE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E86E23C1A118F76002A6FE3 /* BloodManagementSystem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BloodManagementSystem-Prefix.pch"; sourceTree = "<group>"; };
+		6E86E23D1A118F76002A6FE3 /* IlluminatiCodersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IlluminatiCodersAppDelegate.h; sourceTree = "<group>"; };
+		6E86E23E1A118F76002A6FE3 /* IlluminatiCodersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IlluminatiCodersAppDelegate.m; sourceTree = "<group>"; };
+		6E86E2411A118F76002A6FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E86E2431A118F76002A6FE3 /* IlluminatiCodersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IlluminatiCodersViewController.h; sourceTree = "<group>"; };
+		6E86E2441A118F76002A6FE3 /* IlluminatiCodersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IlluminatiCodersViewController.m; sourceTree = "<group>"; };
+		6E86E2461A118F76002A6FE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E86E24C1A118F76002A6FE3 /* BloodManagementSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodManagementSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E86E24D1A118F76002A6FE3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6E86E2551A118F76002A6FE3 /* BloodManagementSystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BloodManagementSystemTests-Info.plist"; sourceTree = "<group>"; };
+		6E86E2571A118F76002A6FE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E86E2591A118F76002A6FE3 /* BloodManagementSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloodManagementSystemTests.m; sourceTree = "<group>"; };
+		6E86E2631A1191D7002A6FE3 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		6E86E2641A1191D7002A6FE3 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		6E86E2661A1195F6002A6FE3 /* Donor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Donor.h; sourceTree = "<group>"; };
+		6E86E2671A1195F6002A6FE3 /* Donor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Donor.m; sourceTree = "<group>"; };
+		6E9EB42E1A12DD9D0094D457 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		6E9EB42F1A12DD9D0094D457 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		6EBC86761A1EC28E0071FB90 /* Donate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Donate.jpg; sourceTree = "<group>"; };
+		6EBC86781A1EC2DA0071FB90 /* Search.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Search.jpg; sourceTree = "<group>"; };
+		8F9164051A1F1457002C36A8 /* BACKbutton */ = {isa = PBXFileReference; lastKnownFileType = file; path = BACKbutton; sourceTree = "<group>"; };
+		8F9164071A1F2642002C36A8 /* dropDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropDown.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E86E2281A118F76002A6FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E86E2311A118F76002A6FE3 /* CoreGraphics.framework in Frameworks */,
+				6E86E2331A118F76002A6FE3 /* UIKit.framework in Frameworks */,
+				6E86E22F1A118F76002A6FE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E86E2491A118F76002A6FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E86E24E1A118F76002A6FE3 /* XCTest.framework in Frameworks */,
+				6E86E2501A118F76002A6FE3 /* UIKit.framework in Frameworks */,
+				6E86E24F1A118F76002A6FE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E86E2221A118F76002A6FE3 = {
+			isa = PBXGroup;
+			children = (
+				6E86E2341A118F76002A6FE3 /* BloodManagementSystem */,
+				6E86E2531A118F76002A6FE3 /* BloodManagementSystemTests */,
+				6E86E22D1A118F76002A6FE3 /* Frameworks */,
+				6E86E22C1A118F76002A6FE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E86E22C1A118F76002A6FE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E86E22B1A118F76002A6FE3 /* BloodManagementSystem.app */,
+				6E86E24C1A118F76002A6FE3 /* BloodManagementSystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E86E22D1A118F76002A6FE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E86E22E1A118F76002A6FE3 /* Foundation.framework */,
+				6E86E2301A118F76002A6FE3 /* CoreGraphics.framework */,
+				6E86E2321A118F76002A6FE3 /* UIKit.framework */,
+				6E86E24D1A118F76002A6FE3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E86E2341A118F76002A6FE3 /* BloodManagementSystem */ = {
+			isa = PBXGroup;
+			children = (
+				6E86E23D1A118F76002A6FE3 /* IlluminatiCodersAppDelegate.h */,
+				6E86E23E1A118F76002A6FE3 /* IlluminatiCodersAppDelegate.m */,
+				6E698FE81A11AA0800524400 /* DonorDetailViewController.h */,
+				6E698FE91A11AA0800524400 /* DonorDetailViewController.m */,
+				6E86E2631A1191D7002A6FE3 /* SearchViewController.h */,
+				6E86E2641A1191D7002A6FE3 /* SearchViewController.m */,
+				398380001A29000F00A1D22D /* bck.jpeg */,
+				395B46611A244C7900F10652 /* drop.png */,
+				8F9164071A1F2642002C36A8 /* dropDown.png */,
+				6EBC86761A1EC28E0071FB90 /* Donate.jpg */,
+				6EBC86781A1EC2DA0071FB90 /* Search.jpg */,
+				8F9164051A1F1457002C36A8 /* BACKbutton */,
+				6E86E2661A1195F6002A6FE3 /* Donor.h */,
+				6E86E2671A1195F6002A6FE3 /* Donor.m */,
+				6E86E2431A118F76002A6FE3 /* IlluminatiCodersViewController.h */,
+				6E86E2441A118F76002A6FE3 /* IlluminatiCodersViewController.m */,
+				6E86E2461A118F76002A6FE3 /* Images.xcassets */,
+				6E86E2401A118F76002A6FE3 /* Main.storyboard */,
+				6E9EB42E1A12DD9D0094D457 /* RegistrationViewController.h */,
+				6E9EB42F1A12DD9D0094D457 /* RegistrationViewController.m */,
+				6E86E2351A118F76002A6FE3 /* Supporting Files */,
+			);
+			path = BloodManagementSystem;
+			sourceTree = "<group>";
+		};
+		6E86E2351A118F76002A6FE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E86E2361A118F76002A6FE3 /* BloodManagementSystem-Info.plist */,
+				6E86E2371A118F76002A6FE3 /* InfoPlist.strings */,
+				6E86E23A1A118F76002A6FE3 /* main.m */,
+				6E86E23C1A118F76002A6FE3 /* BloodManagementSystem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E86E2531A118F76002A6FE3 /* BloodManagementSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E86E2591A118F76002A6FE3 /* BloodManagementSystemTests.m */,
+				6E86E2541A118F76002A6FE3 /* Supporting Files */,
+			);
+			path = BloodManagementSystemTests;
+			sourceTree = "<group>";
+		};
+		6E86E2541A118F76002A6FE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E86E2551A118F76002A6FE3 /* BloodManagementSystemTests-Info.plist */,
+				6E86E2561A118F76002A6FE3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E86E22A1A118F76002A6FE3 /* BloodManagementSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E86E25D1A118F76002A6FE3 /* Build configuration list for PBXNativeTarget "BloodManagementSystem" */;
+			buildPhases = (
+				6E86E2271A118F76002A6FE3 /* Sources */,
+				6E86E2281A118F76002A6FE3 /* Frameworks */,
+				6E86E2291A118F76002A6FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloodManagementSystem;
+			productName = BloodManagementSystem;
+			productReference = 6E86E22B1A118F76002A6FE3 /* BloodManagementSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E86E24B1A118F76002A6FE3 /* BloodManagementSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E86E2601A118F76002A6FE3 /* Build configuration list for PBXNativeTarget "BloodManagementSystemTests" */;
+			buildPhases = (
+				6E86E2481A118F76002A6FE3 /* Sources */,
+				6E86E2491A118F76002A6FE3 /* Frameworks */,
+				6E86E24A1A118F76002A6FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E86E2521A118F76002A6FE3 /* PBXTargetDependency */,
+			);
+			name = BloodManagementSystemTests;
+			productName = BloodManagementSystemTests;
+			productReference = 6E86E24C1A118F76002A6FE3 /* BloodManagementSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E86E2231A118F76002A6FE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IlluminatiCoders;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Koushik;
+				TargetAttributes = {
+					6E86E24B1A118F76002A6FE3 = {
+						TestTargetID = 6E86E22A1A118F76002A6FE3;
+					};
+				};
+			};
+			buildConfigurationList = 6E86E2261A118F76002A6FE3 /* Build configuration list for PBXProject "BloodManagementSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E86E2221A118F76002A6FE3;
+			productRefGroup = 6E86E22C1A118F76002A6FE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E86E22A1A118F76002A6FE3 /* BloodManagementSystem */,
+				6E86E24B1A118F76002A6FE3 /* BloodManagementSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E86E2291A118F76002A6FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9164081A1F2642002C36A8 /* dropDown.png in Resources */,
+				6EBC86791A1EC2DA0071FB90 /* Search.jpg in Resources */,
+				6E86E2471A118F76002A6FE3 /* Images.xcassets in Resources */,
+				6E86E2391A118F76002A6FE3 /* InfoPlist.strings in Resources */,
+				6EBC86771A1EC28E0071FB90 /* Donate.jpg in Resources */,
+				8F9164061A1F1457002C36A8 /* BACKbutton in Resources */,
+				6E86E2421A118F76002A6FE3 /* Main.storyboard in Resources */,
+				395B46621A244C7900F10652 /* drop.png in Resources */,
+				398380011A29000F00A1D22D /* bck.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E86E24A1A118F76002A6FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E86E2581A118F76002A6FE3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E86E2271A118F76002A6FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E698FEA1A11AA0800524400 /* DonorDetailViewController.m in Sources */,
+				6E86E23F1A118F76002A6FE3 /* IlluminatiCodersAppDelegate.m in Sources */,
+				6E86E2681A1195F6002A6FE3 /* Donor.m in Sources */,
+				6E86E2451A118F76002A6FE3 /* IlluminatiCodersViewController.m in Sources */,
+				6E86E2651A1191D7002A6FE3 /* SearchViewController.m in Sources */,
+				6E86E23B1A118F76002A6FE3 /* main.m in Sources */,
+				6E9EB4301A12DD9D0094D457 /* RegistrationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E86E2481A118F76002A6FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E86E25A1A118F76002A6FE3 /* BloodManagementSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E86E2521A118F76002A6FE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E86E22A1A118F76002A6FE3 /* BloodManagementSystem */;
+			targetProxy = 6E86E2511A118F76002A6FE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E86E2371A118F76002A6FE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E86E2381A118F76002A6FE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E86E2401A118F76002A6FE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E86E2411A118F76002A6FE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E86E2561A118F76002A6FE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E86E2571A118F76002A6FE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E86E25B1A118F76002A6FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E86E25C1A118F76002A6FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E86E25E1A118F76002A6FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BloodManagementSystem/BloodManagementSystem-Prefix.pch";
+				INFOPLIST_FILE = "BloodManagementSystem/BloodManagementSystem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E86E25F1A118F76002A6FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BloodManagementSystem/BloodManagementSystem-Prefix.pch";
+				INFOPLIST_FILE = "BloodManagementSystem/BloodManagementSystem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E86E2611A118F76002A6FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BloodManagementSystem.app/BloodManagementSystem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BloodManagementSystem/BloodManagementSystem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BloodManagementSystemTests/BloodManagementSystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6E86E2621A118F76002A6FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BloodManagementSystem.app/BloodManagementSystem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BloodManagementSystem/BloodManagementSystem-Prefix.pch";
+				INFOPLIST_FILE = "BloodManagementSystemTests/BloodManagementSystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E86E2261A118F76002A6FE3 /* Build configuration list for PBXProject "BloodManagementSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E86E25B1A118F76002A6FE3 /* Debug */,
+				6E86E25C1A118F76002A6FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E86E25D1A118F76002A6FE3 /* Build configuration list for PBXNativeTarget "BloodManagementSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E86E25E1A118F76002A6FE3 /* Debug */,
+				6E86E25F1A118F76002A6FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E86E2601A118F76002A6FE3 /* Build configuration list for PBXNativeTarget "BloodManagementSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E86E2611A118F76002A6FE3 /* Debug */,
+				6E86E2621A118F76002A6FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E86E2231A118F76002A6FE3 /* Project object */;
+}
